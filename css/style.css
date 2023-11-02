@@ -280,7 +280,7 @@ html {
 }
 
 /* sections contatos */
-.contatos {
+.contato {
   width: 100%;
   background-color: #1f1e1f;
   display: flex;
@@ -292,29 +292,29 @@ html {
   padding-bottom: 4rem;
 }
 
-.contatos a {
+.contato a {
   color: #fff;
   text-decoration: none;
   transition: all 200ms ease-in;
 }
 
-.contatos a:hover {
+.contato a:hover {
   color: #ffc506;
 }
 
-.contatos h3 {
+.contato h3 {
   font-size: 6rem;
   margin-bottom: 3rem;
 }
 
-.contatos-secao {
+.contato-secao {
   width: 650px;
   display: flex;
   justify-content: space-between;
   font-size: 2rem;
 }
 
-.contatos-secao i {
+.contato-secao i {
   margin-right: 1rem;
 }
 
@@ -373,7 +373,6 @@ footer a:hover {
     height: 4px;
     background-color: white;
     margin: 6px auto;
-
     transition-duration: 0.5s;
   }
 
@@ -390,7 +389,6 @@ footer a:hover {
     height: 100vh;
     background-color: #1f1e1f;
     z-index: 10;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -432,13 +430,13 @@ footer a:hover {
     transform: rotate(-45deg) translate(20px, -6px);
   }
 
-  .contatos-secao {
+  .contato-secao {
     display: block;
     text-align: center;
     font-size: 2rem;
   }
 
-  .contatos-secao div {
+  .contato-secao div {
     margin: 2rem;
   }
 }
@@ -484,6 +482,7 @@ footer a:hover {
   .conteudo-principal h1 {
     font-size: 3rem;
   }
+
   .conteudo-principal h2 {
     font-size: 2rem;
   }
